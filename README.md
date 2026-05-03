@@ -24,7 +24,6 @@ iEITBacon (pronounced "i eat bacon") is a custom EIT device that uses the follow
 
 <img width="2160" height="1770" alt="3D_PCB1_2026-05-03" src="https://github.com/user-attachments/assets/1d9c5d26-dadf-4791-adb0-7a676de41071" />
 
-
   
 ### Program dependencies
 To use the Teensy, I installed [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html) that was created by the legendary [Paul Stoffregen](https://github.com/paulstoffregen).
@@ -48,7 +47,12 @@ A saline tank phantom was used to test whether the EIT device works
 - tank diameter = 155mm
 - Solution volume = 100ml or 250ml
 - Saline solution = 36.7g/L
-  
+
+### Test setup
+<img width="522" height="1160" alt="image" src="https://github.com/user-attachments/assets/c682f584-99ef-4e7c-affa-1aa886fb1a1b" />
+### Reconstructed result 
+<img width="1477" height="828" alt="T12-chan8-Tank-CC-F=25kHz-V=250ml-d=155mm" src="https://github.com/user-attachments/assets/59b8c825-ce2b-43e7-b053-ec15142d6174" />
+
 ## Pork tests
 To prove that EIT can be used as an alternative method to monitor electro-surgical machine dispersion pads, precise burns were inflicted on the pork skin. 
 EIT images were then reconstructed of the burn site
@@ -62,6 +66,12 @@ EIT images were then reconstructed of the burn site
 - Sample size = 110mm x 110mm x 10mm square
 - Burn time = 30s
 - Burn temperature = 150 &deg;C
+
+### Test setup
+<img width="4000" height="3000" alt="electrode_ring_altview_2026-04-16" src="https://github.com/user-attachments/assets/c2219919-050a-4493-93c3-b476e50f9d0f" />
+
+### Reconstructed result 
+<img width="1289" height="836" alt="Prior vs Hyperparameter Grid" src="https://github.com/user-attachments/assets/990d9ffa-858b-4eb2-ad65-30f31493b225" />
 
 # Python code
 The experiments were repeated using Python and pyEIT
@@ -90,3 +100,6 @@ Brian Douglas made a [video](https://www.youtube.com/watch?v=Mbx5IMICS_Y&t=1337s
 ### Hardware
 - Drill press
 - Aluminium heater block
+
+<img width="3000" height="4000" alt="IMG_5541" src="https://github.com/user-attachments/assets/866c426c-a875-4345-9e7b-0757a033780d" />
+
