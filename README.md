@@ -36,10 +36,10 @@ The PID-controlled Baconator has the following components
 - RGB led
 
 In order to determine the PID values of the controller, the open-loop response of the heater block had to be measured. The baconator device was set to a 70% duty cycle and the temperature measured for 1 hour.
-Using MATLAB and SIMULINK, the open-loop response was plotted, and the transfer function was derived.
-G(s) = (K*e^-st) / (\tau s+1)
-was used to calculate the correct transfer function
-  
+Using MATLAB and SIMULINK, the open-loop response was plotted, and the transfer function was derived. 
+The equation, G(s) = (K*e^-st) / (\tau s+1) was used to calculate the correct transfer function
+Using the SIMULINK PID Tuner, the PID values were chosen.
+Brian Douglas made a [video](https://www.youtube.com/watch?v=Mbx5IMICS_Y&t=1337s) that helped me design the PID controller. So, check him out
 ### Hardware
 - Drill press
 - Aluminium heater block
