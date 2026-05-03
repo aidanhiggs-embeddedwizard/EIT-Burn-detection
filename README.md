@@ -21,6 +21,10 @@ iEITBacon (pronounced "i eat bacon") is a custom EIT device that uses the follow
   The device injects a 650uA current at 25kHz into a test sample.
   The Teensy samples the voltage at a rate of 500kHz; to achieve this, DMA was used
   The sampled voltages are then demodulated using IQ demodulation and stored for EIT experiments
+
+<img width="2160" height="1770" alt="3D_PCB1_2026-05-03" src="https://github.com/user-attachments/assets/1d9c5d26-dadf-4791-adb0-7a676de41071" />
+
+
   
 ### Program dependencies
 To use the Teensy, I installed [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html) that was created by the legendary [Paul Stoffregen](https://github.com/paulstoffregen).
