@@ -49,8 +49,11 @@ A saline tank phantom was used to test whether the EIT device works
 - Saline solution = 36.7g/L
 
 ### Test setup
+
 <img width="522" height="1160" alt="image" src="https://github.com/user-attachments/assets/c682f584-99ef-4e7c-affa-1aa886fb1a1b" />
+
 ### Reconstructed result 
+
 <img width="1477" height="828" alt="T12-chan8-Tank-CC-F=25kHz-V=250ml-d=155mm" src="https://github.com/user-attachments/assets/59b8c825-ce2b-43e7-b053-ec15142d6174" />
 
 ## Pork tests
@@ -68,9 +71,11 @@ EIT images were then reconstructed of the burn site
 - Burn temperature = 150 &deg;C
 
 ### Test setup
+
 <img width="4000" height="3000" alt="electrode_ring_altview_2026-04-16" src="https://github.com/user-attachments/assets/c2219919-050a-4493-93c3-b476e50f9d0f" />
 
 ### Reconstructed result 
+
 <img width="1289" height="836" alt="Prior vs Hyperparameter Grid" src="https://github.com/user-attachments/assets/990d9ffa-858b-4eb2-ad65-30f31493b225" />
 
 # Python code
