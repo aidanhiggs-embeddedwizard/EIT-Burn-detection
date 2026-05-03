@@ -23,8 +23,7 @@ iEITBacon (pronounced "i eat bacon"), is a custom EIT device that uses the follo
 ## Pork tests
 
 # The Burn wound device (Baconator)
-
-The PID controlled Baconator has the following components
+The PID-controlled Baconator has the following components
 ### Electronics
 - Arduino Nano
 - MAX6675 Thermocouple
@@ -35,6 +34,11 @@ The PID controlled Baconator has the following components
 - 2 x cooling fans
 - Power switch
 - RGB led
+
+In order to determine the PID values of the controller, the open-loop response of the heater block had to be measured. The baconator device was set to a 70% duty cycle and the temperature measured for 1 hour.
+Using MATLAB and SIMULINK, the open-loop response was plotted, and the transfer function was derived.
+G(s) = (K*e^-st) / (\tau s+1)
+was used to calculate the correct transfer function
   
 ### Hardware
 - Drill press
