@@ -36,7 +36,8 @@ I also used the [Neo pixel](https://github.com/adafruit/Adafruit_NeoPixel) by Ad
 
 # Matlab code
 ### Program dependencies
-
+- MATLAB
+- [EIDORS](https://eidors3d.sourceforge.net/)
 ## Saline tank tests
 A saline tank phantom was used to test whether the EIT device works
 ### Details about experimental setup
@@ -80,8 +81,25 @@ EIT images were then reconstructed of the burn site
 
 # Python code
 The experiments were repeated using Python and pyEIT
-### Program dependencies
+## Program dependencies
 An open-source Python framework for Electrical Impedance Tomography(EIT) [pyEIT](https://github.com/eitcom/pyEIT)
+
+## Python + pyEIT Reconstructed result 
+**Test setup:**
+- Tank with a diameter of 155mm
+- Saline 250ml 
+- 8 electrodes
+- A conductive object (20mm) is placed at the centre of the tank
+  
+## pyEIT reconstructed results 
+
+### Jacobian solver
+
+<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/75c04a85-fafe-465d-905c-da5f1e17a99c" />
+
+### GREIT solver
+
+<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/8e148608-dde5-469e-aa6c-c1bbb72a5653" />
 
 
 # The Burn wound device (Baconator)
